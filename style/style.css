@@ -1,0 +1,111 @@
+:root {
+    /* Custom properties */
+    --hsl-yellow-color: hsl(47, 88%, 63%);
+    --hsl-white-color: hsl(0, 0%, 100%);
+    --hsl-gray-500-color: hsl(0, 0%, 42%);
+    --hsl-gray-950-color: hsl(0, 0%, 7%);
+    --hsl-attribution-color: hsl(228, 45%, 44%);
+
+    height: 100vh;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    /* Font */
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    height: 100%;
+    margin: 0;
+    background-color: var(--hsl-yellow-color);
+
+    /* Layout Design */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    /* Layout Design */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Box design */
+    background-color: var(--hsl-white-color);
+    max-width: 32.5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: .1rem solid var(--hsl-gray-950-color);
+
+    & header {
+        & img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 1rem;
+        }
+
+        .tag {
+            /* box design */
+            background-color: var(--hsl-yellow-color);
+            display: inline-block;
+            margin-bottom: 0;
+            padding: .5rem .8rem;
+            border-radius: .3rem;
+
+            /* font */
+            font-weight: 800;
+            color: var(--hsl-gray-950-color);
+        }
+
+        & h1 {
+            margin-bottom: 0;
+        }
+    }
+
+    & section {
+        font-size: 1rem;
+
+        & p {
+            font-weight: 500;
+            color: var(--hsl-gray-500-color);
+        }
+
+        .author {
+            
+            margin-top: 2rem;
+            height: 4rem;
+            display: flex;
+            align-items: center;
+            column-gap: 1rem;
+
+            & img {
+                max-height: 100%;
+                width: auto;
+            }
+
+            & p {
+                font-weight: 800;
+                color: var(--hsl-gray-950-color);
+            }
+
+        }
+    }
+}
+
+.attribution {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    text-align: center;
+
+    & a {
+        color: var(--hsl-attribution-color);
+    }
+}
