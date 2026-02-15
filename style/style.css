@@ -81,6 +81,7 @@ body {
     
     &:hover {
         color: var(--hsl-yellow-color);
+        cursor: pointer;
     }
 }
 
