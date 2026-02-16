@@ -35,8 +35,8 @@ This project helped me practice layout structuring, CSS organization, and attent
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/blog-preview-card-with-semantic-html-bem-and-mobile-first-css-UsOiba4WpK)
+- Live Site URL: [Add live site URL here](https://victor-sc12.github.io/blog-preview-card-challenge/)
 
 ## My process
 
